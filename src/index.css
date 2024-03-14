@@ -1,0 +1,120 @@
+
+.home-container {
+  padding: 40px;
+  background: linear-gradient(to bottom right, #ff6f61, #ffcc5c);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+  text-align: center;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #ffffff;
+  color: #ff6f61;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+  background-color: #f3f3f3;
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.feature {
+  flex: 1;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.feature p {
+  font-size: 1.1rem;
+  color: #555;
+}
+/* Navbar component styles */
+
+
+.form-control {
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-top: 10px;
+  }
+}
+.cardb{
+  margin-top: 20px;
+  left: 50px;
+}
+.pos {
+  position: relative;
+  left: 1px;
+}
+.cardc{
+  margin-top:300px;
+  left: 50px;
+}
+.sidebar {
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.panel {
+  margin-bottom: 20px;
+}
+
+.panel-body {
+  padding: 20px;
+}
+
+.panel-title {
+  margin-top: 0;
+}
+
+.form-label-left {
+  text-align: left;
+}
+
+.left-align {
+  text-align: left;
+}
